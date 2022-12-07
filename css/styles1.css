@@ -729,7 +729,7 @@ header {
   color: #2196F3;
 }
 
-.regular-custumers-0-6 {
+.regular-custumers-0-6:not(:last-child) {
   margin-right: 30px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
