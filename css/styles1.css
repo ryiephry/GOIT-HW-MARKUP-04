@@ -442,8 +442,7 @@ header {
 }
 
 .profilepic-item {
-
-  box-shadow: 0px 1px 3px 0px #0000001f;
+  /* box-shadow: 0px 1px 3px 0px #0000001f; */
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -547,6 +546,7 @@ header {
 .computerimg1-9-same:hover {
   border-bottom: 0px;
   box-shadow: 0px 2px 2px 2px #0000001F;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
 .computerimg1-9-same:nth-child(3n) {
@@ -619,6 +619,7 @@ header {
 
 .text-for-paragraphs {
   margin-top: 0px;
+
 }
 
 
@@ -703,7 +704,7 @@ header {
 .hero {
   background-image: url("../images/background-img-index-hw04.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
 }
 
