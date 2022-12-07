@@ -67,6 +67,7 @@ img {
   padding-top: 30px;
   display: flex;
   align-items: center;
+  color: var(--secondary-text-color);
 }
 
 .header-svg {
@@ -270,10 +271,6 @@ header {
   color: var(--accent-color);
 }
 
-.header-link:hover,
-.header-link:focus {
-  color: var(--accent-color);
-}
 
 .all-blue-button:hover {
   color: var(--accent-color);
