@@ -74,6 +74,7 @@ img {
   margin-right: 10px;
   fill: currentColor;
   color: #757575;
+  padding-right: 1px;
 }
 
 .header-link:hover,
@@ -299,6 +300,7 @@ header {
 .all-buttons>button:hover {
   color: var(--white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 a {
@@ -515,6 +517,8 @@ header {
   margin-right: 8px;
 }
 
+
+
 .the-9-images {
   display: flex;
   flex-wrap: wrap;
@@ -540,6 +544,10 @@ header {
 
 }
 
+.computerimg1-9-same:hover {
+  border-bottom: 0px;
+  box-shadow: 0px 2px 2px 2px #0000001F;
+}
 
 .computerimg1-9-same:nth-child(3n) {
   margin-right: 0px;
@@ -729,8 +737,7 @@ header {
   color: #2196F3;
 }
 
-.regular-custumers-0-6:not(:last-child) {
-  margin-right: 30px;
+.regular-custumers-0-6 {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   width: 170px;
@@ -740,6 +747,11 @@ header {
   height: 92px;
   color: currentColor;
   color: #2196F3;
+}
+
+.regular-custumers-0-6:not(:last-child) {
+  margin-right: 30px;
+
 }
 
 .r-g-6:hover {
@@ -863,7 +875,6 @@ header {
 }
 
 .footer-icons {
-  margin-right: auto;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 30px;
   display: flex;
