@@ -772,7 +772,6 @@ header {
   text-align: left;
   color: var(--white-color);
   margin-bottom: 20px;
-  margin-top: 10px;
 }
 
 .find-us-section {
@@ -794,7 +793,7 @@ header {
 
 .flex-foot {
   display: flex;
-  align-content: center;
+  align-items: baseline;
 }
 
 
