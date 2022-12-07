@@ -8,7 +8,6 @@
   --currentColor: rgb(196, 196, 34);
 }
 
-
 body {
   font-family: 'Roboto';
   font-size: 14px;
@@ -68,6 +67,7 @@ img {
   padding-bottom: 30px;
   padding-top: 30px;
   display: flex;
+  align-items: center;
 }
 
 .header-link:hover,
@@ -648,10 +648,6 @@ header {
 
 /* ICONS */
 
-.header-link {
-  display: flex;
-  align-items: center;
-}
 
 .icon-space {
   margin-right: 10px;
@@ -814,6 +810,7 @@ header {
 
 .header-svg {
   margin-right: 10px;
+  fill: currentColor;
   color: #757575;
 
 }
