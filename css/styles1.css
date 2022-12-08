@@ -23,6 +23,7 @@ body {
 
 a {
   color: currentColor;
+  font-weight: 500;
 }
 
 ul {
@@ -300,11 +301,6 @@ header {
   color: var(--white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-}
-
-a {
-  font-weight: 500;
-  /*color: var(--secondary-text-color);*/
 }
 
 .profile-images-title-2 {
@@ -701,16 +697,16 @@ header {
 
 
 .hero {
-  background-image: url("../images/background-img-index-hw04.jpg");
-  background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-img-index-hw04.jpg");
+  background-size: cover;
   background-position: center;
 }
 
 
 .icon-list-profilepics {
-  display: block;
   padding: 0px 10px;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -801,6 +797,7 @@ header {
 
 .footer-ul-2 {
   display: flex;
+  justify-content: space-between;
 }
 
 .flex-foot {
@@ -823,9 +820,8 @@ header {
 
 .svg-profile-flex {
   display: flex;
-  justify-content: space-between;
-  margin-top: 16px;
   padding-bottom: 0px;
+  width: 206px;
 }
 
 .-svg-social-profile {
@@ -880,10 +876,6 @@ header {
   display: flex;
   align-self: center;
   justify-content: center;
-}
-
-.footer-icons:not(:last-child) {
-  margin-right: 10px;
 }
 
 .regular-custumers-0-6:hover {
